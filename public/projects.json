@@ -1,0 +1,56 @@
+[
+    {
+      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 1",
+      "features": [
+        "Responsive design",
+        "Cross-browser compatibility",
+        "Optimized performance"
+      ]
+    },
+    {
+      "image": "https://images.pexels.com/photos/16152805/pexels-photo-16152805/free-photo-of-open-laptop-reflecting-in-a-table.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 2",
+      "features": [
+        "User-friendly interface",
+        "Advanced search functionality",
+        "Integration with third-party APIs"
+      ]
+    },
+    {
+      "image": "https://images.pexels.com/photos/7129617/pexels-photo-7129617.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 3",
+      "features": [
+        "Secure authentication system",
+        "Payment integration",
+        "Real-time updates"
+      ]
+    },
+    {
+      "image": "https://images.pexels.com/photos/4249193/pexels-photo-4249193.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 4",
+      "features": [
+        "Multilingual support",
+        "Content management system",
+        "SEO optimization"
+      ]
+    },
+    {
+      "image": "https://images.pexels.com/photos/7172832/pexels-photo-7172832.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 5",
+      "features": [
+        "E-commerce functionality",
+        "Order tracking",
+        "Inventory management"
+      ]
+    },
+    {
+      "image": "https://images.pexels.com/photos/7172864/pexels-photo-7172864.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "name": "Project 6",
+      "features": [
+        "Social media integration",
+        "Customizable templates",
+        "Data analytics"
+      ]
+    }
+  ]

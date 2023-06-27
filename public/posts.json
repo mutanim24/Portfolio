@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "title": "Introduction to Web Development",
+      "description": "Learn the basics of web development and get started on your coding journey.",
+      "publish_date": "2022-01-15",
+      "author": {
+        "name": "John Smith"
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Mastering CSS Flexbox",
+      "description": "Unlock the power of CSS Flexbox and create flexible and responsive layouts.",
+      "publish_date": "2022-03-02",
+      "author": {
+        "name": "Jane Doe"
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "JavaScript Best Practices",
+      "description": "Discover essential JavaScript best practices to write cleaner and more efficient code.",
+      "publish_date": "2022-05-10",
+      "author": {
+        "name": "Mike Johnson"
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "The Art of Blogging",
+      "description": "Explore the art of blogging and learn how to craft engaging and captivating content.",
+      "publish_date": "2022-07-20",
+      "author": {
+        "name": "Emily Davis"
+      }
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "SEO Techniques for Higher Rankings",
+      "description": "Discover effective SEO techniques to improve your website's visibility in search engines.",
+      "publish_date": "2022-09-05",
+      "author": {
+        "name": "David Wilson"
+      }
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/image6.jpg",
+      "title": "Mastering Responsive Web Design",
+      "description": "Learn the principles and techniques of responsive web design to create mobile-friendly websites.",
+      "publish_date": "2022-11-12",
+      "author": {
+        "name": "Sarah Thompson"
+      }
+    }
+  ]
