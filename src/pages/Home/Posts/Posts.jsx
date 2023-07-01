@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Posts = () => {
     const [posts, setPosts] = useState([]);
@@ -10,11 +11,10 @@ const Posts = () => {
     }, [])
     return (
         <div>
-            <div className="text-center mt-10 text-white">
-                <h1 className="text-5xl font-bold mb-4">Blog</h1>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div>
+                <SectionTitle title='Blog'></SectionTitle>
             </div>
-            <div className="grid grid-cols-3 gap-5 my-14">
+            <div className="grid grid-cols-3 gap-5 mb-14">
                 {
                     posts.map(post => <div key={post.id} className="overflow-hidden rounded text-white shadow-md shadow-slate-200">
                         {/*  <!-- Image --> */}
@@ -37,7 +37,7 @@ const Posts = () => {
                                 </div>
                             </header>
                             <p>
-                                {post.description.slice(0, 60)}
+                                {post.description.slice(0, 60)}....
                             </p>
                         </div>
                         {/*  <!-- Action base sized link button --> */}

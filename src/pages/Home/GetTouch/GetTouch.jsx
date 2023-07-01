@@ -1,15 +1,15 @@
 
 import { MdOutlineEmail, MdCall, MdLocationOn } from 'react-icons/md';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const GetTouch = () => {
     return (
         <div>
-            <div className="text-center mt-10 text-white">
-                <h1 className="text-5xl font-bold mb-4">Get in touch!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div>
+                <SectionTitle title='Get In' subtitle='Touch'></SectionTitle>
             </div>
-            <div className="flex gap-14 py-12">
-                <div className="my-10">
+            <div className="flex gap-14">
+                <div className='w-4/12'>
                     <h1 className="text-3xl text-white font-bold mb-4">Contact Info</h1>
                     <ul
                         aria-label="Activity feed"
@@ -51,11 +51,11 @@ const GetTouch = () => {
                 </div>
 
                 {/*<!-- Component: Card with form --> */}
-                <form className="w-8/12 overflow-hidden rounded bg-black text-slate-500 ">
+                <form action='https://formspree.io/f/moqoawnd' method='POST' className="w-8/12 overflow-hidden rounded bg-black text-slate-500 mb-8">
                     {/*  <!-- Body--> */}
-                    <div className="p-6 text-white">
+                    <div className="px-6 text-white">
                         <header className="mb-4">
-                            <h3 className="text-xl font-medium text-white text-slate-700">Message me!!</h3>
+                            <h3 className="text-3xl font-bold text-white text-slate-700">Message me!!</h3>
                         </header>
                         <div className="flex flex-col space-y-8">
                             {/*      <!-- Input field --> */}
@@ -64,7 +64,7 @@ const GetTouch = () => {
                                     <input
                                         id="id-b03"
                                         type="text"
-                                        name="id-b03"
+                                        name="name"
                                         placeholder="your name"
                                         className="peer relative h-10 w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
                                     />
@@ -72,14 +72,14 @@ const GetTouch = () => {
                                         htmlFor="id-b03"
                                         className="absolute left-2 -top-2 z-[1] px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full bg-transparent before:transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-required:after:text-pink-500 peer-required:after:content-['\00a0*'] peer-invalid:text-pink-500 peer-focus:-top-6 peer-focus:text-xs peer-focus:text-white-500 peer-invalid:peer-focus:text-pink-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
                                     >
-                                        Name *
+                                        Name*
                                     </label>
                                 </div>
                                 <div className="relative my-6">
                                     <input
                                         id="id-b03"
                                         type="email"
-                                        name="id-b03"
+                                        name="email"
                                         placeholder="your name"
                                         className="peer relative h-10 w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
                                     />
@@ -87,7 +87,7 @@ const GetTouch = () => {
                                         htmlFor="id-b03"
                                         className="absolute left-2 -top-2 z-[1] px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full bg-transparent before:transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-required:after:text-pink-500 peer-required:after:content-['\00a0*'] peer-invalid:text-pink-500 peer-focus:-top-6 peer-focus:text-xs peer-focus:text-white-500 peer-invalid:peer-focus:text-pink-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
                                     >
-                                        Email *
+                                        Email*
                                     </label>
                                 </div>
 
@@ -96,7 +96,7 @@ const GetTouch = () => {
                                 <input
                                     id="id-b03"
                                     type="text"
-                                    name="id-b03"
+                                    name="subject"
                                     placeholder="Subject"
                                     className="peer relative h-10 w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
                                 />
@@ -104,14 +104,14 @@ const GetTouch = () => {
                                     htmlFor="id-b03"
                                     className="absolute left-2 -top-2 z-[1] px-2 text-xs text-slate-400 transition-all before:absolute before:top-0 before:left-0 before:z-[-1] before:block before:h-full before:w-full bg-transparent before:transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-required:after:text-pink-500 peer-required:after:content-['\00a0*'] peer-invalid:text-pink-500 peer-focus:-top-6 peer-focus:text-xs peer-focus:text-white-500 peer-invalid:peer-focus:text-pink-500 peer-disabled:cursor-not-allowed peer-disabled:text-slate-400 peer-disabled:before:bg-transparent"
                                 >
-                                    Subject *
+                                    Subject*
                                 </label>
                             </div>
-                            <div className="relative my-6">
+                            <div className="relative">
                                 <textarea
                                     id="id-b03"
                                     type="email"
-                                    name="id-b03"
+                                    name="message"
                                     placeholder="your message"
                                     className="h-32 peer relative h-10 w-full rounded border border-slate-200 px-4 text-sm text-slate-500 placeholder-transparent outline-none transition-all  invalid:border-pink-500 invalid:text-pink-500 focus:border-white-500 focus:outline-none invalid:focus:border-pink-500 disabled:cursor-not-allowed bg-transparent disabled:text-slate-400"
                                 ></textarea>
@@ -126,8 +126,8 @@ const GetTouch = () => {
 
                         </div>
                     </div>
-                    <div className="flex justify-end p-6 ">
-                        <button className="text-black inline-flex h-10 w-full items-center justify-center gap-2 whitespace-nowrap rounded bg-white px-5 text-sm font-medium tracking-wide transition duration-300 hover:bg-gray-800 focus:bg-gray-800 focus-visible:outline-none disabled:cursor-not-allowed">
+                    <div className="flex justify-end px-6">
+                        <button type='submit' className='btn bg-white text-black mt-5 font-semibold p-3 px-5 rounded hover:bg-yellow-600 hover:text-white transition duration-300 w-full'>
                             <span>Send Message</span>
                         </button>
                     </div>

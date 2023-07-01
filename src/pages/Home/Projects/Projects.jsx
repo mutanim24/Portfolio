@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -10,9 +11,8 @@ const Projects = () => {
   }, [])
   return (
     <div>
-      <div className="text-center my-10 text-white">
-        <h1 className="text-5xl font-bold mb-4">Portfolio</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div>
+        <SectionTitle title='Portfolio'></SectionTitle>
       </div>
       <div className="grid grid-cols-3 gap-5">
         {

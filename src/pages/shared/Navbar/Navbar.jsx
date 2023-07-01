@@ -1,5 +1,6 @@
 import { useState } from "react"
 import logo from '../../../assets/Tanim Logo.jpg'
+import { NavLink } from "react-router-dom"
 
 export default function NavbarBasicPreview() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
@@ -27,10 +28,9 @@ export default function NavbarBasicPreview() {
             {/*      <!-- Mobile trigger --> */}
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden
-                ${
-                  isToggleOpen
-                    ? "visible opacity-100 [&_span:nth-child(1)]:w-6 [&_span:nth-child(1)]:translate-y-0 [&_span:nth-child(1)]:rotate-45 [&_span:nth-child(3)]:w-0 [&_span:nth-child(2)]:-rotate-45 "
-                    : ""
+                ${isToggleOpen
+                  ? "visible opacity-100 [&_span:nth-child(1)]:w-6 [&_span:nth-child(1)]:translate-y-0 [&_span:nth-child(1)]:rotate-45 [&_span:nth-child(3)]:w-0 [&_span:nth-child(2)]:-rotate-45 "
+                  : ""
                 }
               `}
               onClick={() => setIsToggleOpen(!isToggleOpen)}
@@ -56,56 +56,55 @@ export default function NavbarBasicPreview() {
             <ul
               role="menubar"
               aria-label="Select page"
-              className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-white/90 px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
-                isToggleOpen
+              className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-black px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
                   ? "visible opacity-100 backdrop-blur-sm"
                   : "invisible opacity-0"
-              }`}
+                }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
+                <NavLink
+                  to='/'
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className={`flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0) ${({ isActive }) => isActive && 'border-red-800'}`}
                 >
                   <span>Home</span>
-                </a>
+                </NavLink>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
+                <NavLink
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 text-gray-500 transition-colors duration-300 hover:text-gray-600 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Features</span>
-                </a>
-              </li>
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
-                >
-                  <span>Pricing</span>
-                </a>
-              </li>
-              <li role="none" className="flex items-stretch">
-                <a
-                  role="menuitem"
-                  aria-haspopup="false"
-                  tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-600 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>About</span>
-                </a>
+                </NavLink>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <NavLink
+                  role="menuitem"
+                  aria-haspopup="false"
+                  tabIndex="0"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0)"
+                >
+                  <span>Skills</span>
+                </NavLink>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <NavLink
+                  role="menuitem"
+                  aria-haspopup="false"
+                  tabIndex="0"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0)"
+                >hahah
+                </NavLink>
               </li>
             </ul>
           </nav>
