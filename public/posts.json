@@ -1,62 +1,62 @@
 [
-    {
-      "id": 1,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "Introduction to Web Development",
-      "description": "Learn the basics of web development and get started on your coding journey.",
-      "publish_date": "2022-01-15",
-      "author": {
-        "name": "John Smith"
-      }
-    },
-    {
-      "id": 2,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "Mastering CSS Flexbox",
-      "description": "Unlock the power of CSS Flexbox and create flexible and responsive layouts.",
-      "publish_date": "2022-03-02",
-      "author": {
-        "name": "Jane Doe"
-      }
-    },
-    {
-      "id": 3,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "JavaScript Best Practices",
-      "description": "Discover essential JavaScript best practices to write cleaner and more efficient code.",
-      "publish_date": "2022-05-10",
-      "author": {
-        "name": "Mike Johnson"
-      }
-    },
-    {
-      "id": 4,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "The Art of Blogging",
-      "description": "Explore the art of blogging and learn how to craft engaging and captivating content.",
-      "publish_date": "2022-07-20",
-      "author": {
-        "name": "Emily Davis"
-      }
-    },
-    {
-      "id": 5,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "SEO Techniques for Higher Rankings",
-      "description": "Discover effective SEO techniques to improve your website's visibility in search engines.",
-      "publish_date": "2022-09-05",
-      "author": {
-        "name": "David Wilson"
-      }
-    },
-    {
-      "id": 6,
-      "image": "https://images.pexels.com/photos/16450745/pexels-photo-16450745/free-photo-of-linkedin-page-on-cellphone-screen.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "title": "Mastering Responsive Web Design",
-      "description": "Learn the principles and techniques of responsive web design to create mobile-friendly websites.",
-      "publish_date": "2022-11-12",
-      "author": {
-        "name": "Sarah Thompson"
-      }
+  {
+    "id": 1,
+    "image": "https://i0.wp.com/blog.apitier.com/wp-content/uploads/2023/02/MERN_Stack.jpg?fit=560%2C315&ssl=1",
+    "title": "Mastering the MERN Stack: Building Modern Web Applications",
+    "description": "In this comprehensive guide, you will dive deep into the MERN stack (MongoDB, Express.js, React.js, and Node.js) and learn how to build modern web applications. Discover best practices for structuring your project, setting up the development environment, and implementing essential features. Explore advanced topics such as user authentication, real-time updates, and deployment strategies. Additionally, you will explore integration with additional technologies such as Next.js, TypeScript, Redux, and Firebase to enhance the functionality and performance of your applications. Whether you're a beginner or an experienced developer, this blog series will equip you with the knowledge and skills to create robust and scalable web applications using the MERN stack and its associated technologies.",
+    "publish_date": "2023-07-01",
+    "author": {
+      "name": "Muhim Uddin Tanim"
     }
-  ]
+  },
+  {
+    "id": 2,
+    "image": "https://www.imaginarycloud.com/blog/content/images/size/w1000/2022/02/Untitled-design--2-.jpg",
+    "title": "Supercharging Frontend Development with Next.js and TypeScript",
+    "description": "Next.js, a popular React framework, combined with the power of TypeScript, provides an incredible development experience for building scalable and high-performance web applications. In this blog post, we will explore the benefits of using Next.js and TypeScript together and dive into advanced concepts such as server-side rendering, dynamic routing, and API integration. Discover how to leverage Next.js's built-in features and TypeScript's static typing to catch errors early and improve productivity. With practical examples and real-world use cases, you will gain a solid understanding of how to harness the full potential of Next.js and TypeScript in your frontend development projects.",
+    "publish_date": "2023-06-29",
+    "author": {
+      "name": "Muhim Uddin Tanim"
+    }
+  },
+  {
+    "id": 3,
+    "image": "https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/04/21032431/redux-cover-imgage.jpg",
+    "title": "Demystifying Redux: State Management Made Simple",
+    "description": "Managing state in large-scale applications can be challenging, but Redux provides a robust solution. In this blog post, we will demystify Redux and guide you through the process of integrating Redux into your application. Learn about the core principles of Redux, including actions, reducers, and the Redux store. Explore advanced topics such as asynchronous actions and middleware. Additionally, we will cover best practices for structuring your Redux code and optimizing performance. Whether you're new to Redux or looking to level up your skills, this blog post will provide you with a solid foundation to handle complex state management scenarios in your MERN stack applications.",
+    "publish_date": "2023-06-25",
+    "author": {
+      "name": "Muhim Uddin Tanim"
+    }
+  },
+  {
+    "id": 4,
+    "image": "https://firebase.google.com/images/social.png",
+    "title": "Building Real-Time Chat Applications with Firebase and React",
+    "description": "Real-time communication is a crucial aspect of modern web applications, and Firebase provides a powerful real-time database and authentication system. In this blog post, you will learn how to leverage Firebase and React to build real-time chat applications. Explore Firebase's real-time database, user authentication, and cloud functions. Discover how to implement features like user presence, message synchronization, and notifications. With practical examples and step-by-step instructions, you will gain the skills needed to create interactive and engaging chat applications that scale effortlessly using Firebase and React in your MERN stack projects.",
+    "publish_date": "2023-06-20",
+    "author": {
+      "name": "Muhim Uddin Tanim"
+    }
+  },
+  {
+    "id": 5,
+    "image": "https://cdn.thenewstack.io/media/2022/01/10b88c68-typescript-logo.png",
+    "title": "Mastering TypeScript in the MERN Stack",
+    "description": "TypeScript brings static typing and advanced JavaScript features to the MERN stack, enabling developers to write more maintainable and scalable code. In this blog series, you will dive deep into TypeScript and its integration with the MERN stack. Learn how to leverage TypeScript's type system, interfaces, and generics to catch errors early and improve code quality. Explore how TypeScript enhances development workflows with powerful code editors and development tools. Additionally, we will cover advanced TypeScript topics such as decorators, module resolution, and declaration merging. Whether you're new to TypeScript or looking to level up your skills, this blog series will empower you to write robust and reliable code in your MERN stack applications.",
+    "publish_date": "2023-06-15",
+    "author": {
+      "name": "Muhim Uddin Tanim"
+    }
+  },
+  {
+    "id": 6,
+    "image": "https://graffersid.com/wp-content/uploads/2022/09/Future-Of-MERN-Stack-Development.png",
+    "title": "Securing Your MERN Stack Applications with Firebase Authentication",
+    "description": "Security is a critical aspect of any application, and Firebase Authentication provides a seamless way to authenticate users in MERN stack applications. In this blog post, you will learn how to integrate Firebase Authentication into your MERN stack applications. Discover different authentication methods, including email/password, social logins, and custom authentication. Explore Firebase's security rules and best practices for securing user data. With step-by-step instructions and code examples, you will gain the knowledge and skills needed to implement secure and reliable user authentication in your MERN stack applications using Firebase Authentication.",
+    "publish_date": "2023-06-10",
+    "author": {
+      "name": "Muhim Uddin Tanim"
+    }
+  }
+]
