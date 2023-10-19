@@ -103,7 +103,27 @@ export default function NavbarBasicPreview() {
                   tabIndex="0"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
-                >hahah
+                >Portfolio
+                </NavLink>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <NavLink
+                  role="menuitem"
+                  aria-haspopup="false"
+                  tabIndex="0"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0)"
+                >Blog
+                </NavLink>
+              </li>
+              <li role="none" className="flex items-stretch">
+                <NavLink
+                  role="menuitem"
+                  aria-haspopup="false"
+                  tabIndex="0"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  href="javascript:void(0)"
+                >Contact
                 </NavLink>
               </li>
             </ul>
