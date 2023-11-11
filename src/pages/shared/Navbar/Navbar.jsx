@@ -1,9 +1,12 @@
 import { useState } from "react"
 import logo from '../../../assets/Tanim Logo.jpg'
-import { NavLink } from "react-router-dom"
+import { Link } from "react-scroll"
+
 
 export default function NavbarBasicPreview() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
+
+
 
   return (
     <>
@@ -21,7 +24,7 @@ export default function NavbarBasicPreview() {
               aria-label="WindUI logo"
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
-              href="javascript:void(0)"
+            // href="javascript:void(0)"
             >
               <img className="w-40" src={logo} alt="" />
             </a>
@@ -57,74 +60,93 @@ export default function NavbarBasicPreview() {
               role="menubar"
               aria-label="Select page"
               className={`absolute top-0 left-0 z-[-1] h-[28.5rem] w-full justify-center overflow-hidden  overflow-y-auto overscroll-contain bg-black px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:bg-white/0 lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${isToggleOpen
-                  ? "visible opacity-100 backdrop-blur-sm"
-                  : "invisible opacity-0"
+                ? "visible opacity-100 backdrop-blur-sm"
+                : "invisible opacity-0"
                 }`}
             >
               <li role="none" className="flex items-stretch">
-                <NavLink
-                  to='/'
+                <Link
+                  to="home"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
                   className={`flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0) ${({ isActive }) => isActive && 'border-red-800'}`}
+                  // href="javascript:void(0) ${({ isActive }) => isActive && 'border-red-800'}`}
                 >
                   <span>Home</span>
-                </NavLink>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <NavLink
+                <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-600 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className="cursor-pointer flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-600 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                // href="javascript:void(0)"
                 >
                   <span>About</span>
-                </NavLink>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <NavLink
+                <Link
+                  activeClass="active"
+                  to="skills"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className="cursor-pointer flex cursor-pointer items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                // href="javascript:void(0)"
                 >
                   <span>Skills</span>
-                </NavLink>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <NavLink
+                <Link
+                  to="portfolio"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className="cursor-pointer flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                // href="javascript:void(0)"
                 >Portfolio
-                </NavLink>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <NavLink
+                <Link
+                  to="blog"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className="cursor-pointer flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  // href="javascript:void(0)"
+                  onClick={() => scrollToSection("portfolio")}
                 >Blog
-                </NavLink>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <NavLink
+                <Link
+                  to="contact"
+                  smooth={true}
+                  duration={500}
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  className="cursor-pointer flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                // href="javascript:void(0)"
                 >Contact
-                </NavLink>
+                </Link>
               </li>
             </ul>
           </nav>

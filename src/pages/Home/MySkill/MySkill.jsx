@@ -16,11 +16,11 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle'
 
 const MySkill = () => {
     return (
-        <div className="text-white my-20">
+        <div className="text-white my-20" id='skills'>
             <div>
                 <SectionTitle title='My' subtitle='Skills'></SectionTitle>
             </div>
-            <div className='grid grid-cols-5 gap-10'>
+            <div className='grid grid-cols-2 md:grid-cols-5 gap-10'>
                 <div className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>

@@ -4,12 +4,12 @@ import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 const GetTouch = () => {
     return (
-        <div>
+        <div id="contact">
             <div>
                 <SectionTitle title='Get In' subtitle='Touch'></SectionTitle>
             </div>
-            <div className="flex gap-14">
-                <div className='w-4/12'>
+            <div className="md:flex gap-14">
+                <div className='md:w-4/12'>
                     <h1 className="text-3xl text-white font-bold mb-4">Contact Info</h1>
                     <ul
                         aria-label="Activity feed"
@@ -51,10 +51,10 @@ const GetTouch = () => {
                 </div>
 
                 {/*<!-- Component: Card with form --> */}
-                <form action='https://formspree.io/f/moqoawnd' method='POST' className="w-8/12 overflow-hidden rounded bg-black text-slate-500 mb-8">
+                <form action='https://formspree.io/f/moqoawnd' method='POST' className="md:w-8/12 overflow-hidden rounded bg-black text-slate-500 mb-8">
                     {/*  <!-- Body--> */}
                     <div className="px-6 text-white">
-                        <header className="mb-4">
+                        <header className="mt-6 md:mt-0 md:mb-4">
                             <h3 className="text-3xl font-bold text-white text-slate-700">Message me!!</h3>
                         </header>
                         <div className="flex flex-col space-y-8">
