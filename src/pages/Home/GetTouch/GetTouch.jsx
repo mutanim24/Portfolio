@@ -9,7 +9,7 @@ const GetTouch = () => {
                 <SectionTitle title='Get In' subtitle='Touch'></SectionTitle>
             </div>
             <div className="md:flex gap-14">
-                <div className='md:w-4/12'>
+                <div data-aos="fade-right" className='md:w-4/12'>
                     <h1 className="text-3xl text-white font-bold mb-4">Contact Info</h1>
                     <ul
                         aria-label="Activity feed"
@@ -51,7 +51,7 @@ const GetTouch = () => {
                 </div>
 
                 {/*<!-- Component: Card with form --> */}
-                <form action='https://formspree.io/f/moqoawnd' method='POST' className="md:w-8/12 overflow-hidden rounded bg-black text-slate-500 mb-8">
+                <form data-aos="fade-left" action='https://formspree.io/f/moqoawnd' method='POST' className="md:w-8/12 overflow-hidden rounded bg-black text-slate-500 mb-8">
                     {/*  <!-- Body--> */}
                     <div className="px-6 text-white">
                         <header className="mt-6 md:mt-0 md:mb-4">

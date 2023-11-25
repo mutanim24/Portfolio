@@ -14,8 +14,8 @@ const Projects = () => {
   //     .then(data => setProjects(data))
   // }, []);
   fetch("http://localhost:3000/projects")
-  .then(res => res.json())
-  .then(data => setProjects(data))
+    .then(res => res.json())
+    .then(data => setProjects(data))
 
 
   const openModal = (project) => {
@@ -34,6 +34,7 @@ const Projects = () => {
       <div className="grid md:grid-cols-3 gap-5">
         {projects.map(project => (
           <div
+            data-aos="zoom-in-left"
             key={project._id}
             className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200 hover:scale-90 transform transition-all duration-300 cursor-pointer"
             onClick={() => openModal(project)}

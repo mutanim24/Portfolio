@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const PostCard = ({post}) => {
     return (
-        <div key={post._id} className="overflow-hidden rounded text-white shadow-md shadow-slate-200">
+        <div data-aos="zoom-in-left" key={post._id} className="overflow-hidden rounded text-white shadow-md shadow-slate-200">
             {/*  <!-- Image --> */}
             <figure>
                 <img

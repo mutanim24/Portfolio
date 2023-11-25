@@ -21,7 +21,7 @@ const MySkill = () => {
                 <SectionTitle title='My' subtitle='Skills'></SectionTitle>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-5 gap-10'>
-                <div className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={html} alt="" />
@@ -45,7 +45,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-sky-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={css} alt="" />
@@ -69,7 +69,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-cyan-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-cyan-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={tailwind} alt="" />
@@ -93,7 +93,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-purple-900 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-purple-900 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={bootstrap} alt="" />
@@ -117,7 +117,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-yellow-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-yellow-500 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={javascript} alt="" />
@@ -141,7 +141,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-sky-700 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-sky-700 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={react} alt="" />
@@ -165,7 +165,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-green-800 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-800 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={nodejs} alt="" />
@@ -189,7 +189,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-white rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-white rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={expressjs} alt="" />
@@ -213,7 +213,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-green-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-green-600 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={mongodb} alt="" />
@@ -237,7 +237,7 @@ const MySkill = () => {
                         </progress>
                     </div>
                 </div>
-                <div className='text-center p-8 shadow-lg shadow-orange-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
+                <div data-aos="zoom-in" className='text-center p-8 shadow-lg shadow-orange-400 rounded-lg hover:scale-110 transform transition-all duration-300'>
                     {/* <span>HTML</span><FaHtml5 className='text-2xl'></FaHtml5> */}
                     <div className='mb-3'>
                         <img className='mx-auto w-20 mb-2' src={firebase} alt="" />

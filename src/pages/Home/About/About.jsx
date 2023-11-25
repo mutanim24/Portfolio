@@ -8,7 +8,7 @@ const About = () => {
         <div id='about'>
             <SectionTitle title='About' subtitle='Me'></SectionTitle>
             <div className="text-white md:flex justify-center items-center gap-14">
-                <div className='md:w-7/12'>
+                <div data-aos="fade-right" className='md:w-7/12'>
                     <p>As a full-stack developer with expertise in the MERN stack, I bring a passion for crafting efficient and scalable web applications. With a solid foundation in front-end technologies such as React.js and Next.js, combined with my proficiency in back-end development using Node.js and Express.js, I have successfully delivered end-to-end solutions that meet client requirements and deliver exceptional user experiences. </p>
                     <div className='md:flex gap-4 mt-6'>
                         <div className='md:w-7/12 space-y-3'>
@@ -44,7 +44,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='md:w-5/12'>
-                    <img src={programmer} alt="" />
+                    <img data-aos="fade-left" src={programmer} alt="" />
                 </div>
             </div>
         </ div>
