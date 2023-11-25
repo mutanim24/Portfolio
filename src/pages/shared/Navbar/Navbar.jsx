@@ -72,7 +72,7 @@ export default function NavbarBasicPreview() {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className={`flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
+                  className={`cursor-pointer flex items-center gap-2 py-4 transition-colors duration-300 hover:text-gray-500 focus:bg-gray focus:outline-none focus-visible:outline-none lg:px-8"
                   // href="javascript:void(0) ${({ isActive }) => isActive && 'border-red-800'}`}
                 >
                   <span>Home</span>
@@ -123,7 +123,7 @@ export default function NavbarBasicPreview() {
               </li>
               <li role="none" className="flex items-stretch">
                 <Link
-                  to="blog"
+                  to="post"
                   smooth={true}
                   duration={500}
                   role="menuitem"

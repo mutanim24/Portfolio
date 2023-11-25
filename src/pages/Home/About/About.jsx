@@ -14,8 +14,8 @@ const About = () => {
                         <div className='md:w-7/12 space-y-3'>
                             <h1 className='text-3xl font-semibold text-yellow-600'>Myself</h1>
                             <p>Name: Muhim Uddin Tanim</p>
-                            <p>Education: Diploma in Computer Science & Technology</p>
-                            <p>Language: Bangla(native), English(fluent)</p>
+                            <p>Education: Diploma in Computer Science</p>
+                            <p>Language: Bangla, English</p>
                             <a
                                 href={resume}
                                 download="Resume - Muhim Uddin Tanim">

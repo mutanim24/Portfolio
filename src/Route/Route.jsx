@@ -17,7 +17,7 @@ export const router = createBrowserRouter([
         {
           path: '/blog/:id',
           element: <SinglePost></SinglePost>,
-          loader: ({params}) => fetch(`http://localhost:3000/blog/${params._id}`)
+          loader: ({params}) => fetch(`http://localhost:3000/blog/${params.id}`)
         }
     ]
   },

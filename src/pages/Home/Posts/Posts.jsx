@@ -14,7 +14,7 @@ const Posts = () => {
     .then(res => res.json())
     .then(data => setPosts(data))
     return (
-        <div id="blog">
+        <div id="post">
             <div>
                 <SectionTitle title='Blog'></SectionTitle>
             </div>
