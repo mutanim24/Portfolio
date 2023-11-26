@@ -1,7 +1,8 @@
 import profile from '../../../assets/profile-pic.png'
 import programmer from '../../../assets/programmer.jpg'
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
-import resume from '../../../assets/MUHIM UDDIN TANIM - MERN stack developer.docx (1).pdf'
+import resume from '../../../assets/MUHIM UDDIN TANIM - MERN stack developer.pdf'
+import { Button } from 'keep-react';
 
 const About = () => {
     return (
